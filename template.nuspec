@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+
+	<metadata>
+		<id>Taro.Net.Web.Api.Template</id>
+		<description>Taro NET Web API Template</description>
+		<version>1.0.2</version>
+		<authors>Cosmin Crisan</authors>
+		<owners>Cosmin Crisan</owners>
+		<projectUrl>https://github.com/cosmin19/net-webapi-template</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<tags>dotnet template</tags>
+		<icon>images\icon.png</icon>
+		<readme>docs\readme.md</readme>
+	</metadata>
+
+	<files>
+		<file src="content\**" exclude="**\bin\**;**\obj\**" target="content" />
+		<file src=".\images\icon.png" target="images" />
+		<file src=".\docs\README.md" target="docs" />
+	</files>
+
+</package>

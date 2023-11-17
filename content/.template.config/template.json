@@ -1,0 +1,37 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Cosmin Crisan",
+	"projectURL": "https://github.com/cosmin19/net-webapi-template",
+	"repository": {
+		"url": "https://github.com/cosmin19/net-webapi-template",
+		"type": "GitHub"
+	},
+	"tags": {
+		"language": "C#",
+		"type": "solution"
+	},
+	"classifications": [
+		"Web",
+		"ASP.NET"
+	],
+	"releaseNotes": "Lorem ipsum dolor sit amet.",
+	"identity": "Taro.Net.Web.Api.Template",
+	"name": "Taro Net Web API Template",
+	"shortName": "taronetwebapi",
+	"defaultName": "WebApplication",
+	"sourceName": "Net.WebApi.Template",
+	"sources": [
+		{
+			"modifiers": [
+				{
+					"exclude": [
+						"**/bin/**",
+						"**/obj/**",
+						"**/Net.WebApi.Template.nuspec"
+					]
+				}
+			]
+		}
+	],
+	"preferNameDirectory": true
+}
